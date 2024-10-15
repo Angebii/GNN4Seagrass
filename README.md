@@ -12,16 +12,16 @@ Seagrass ecosystems are essential for marine biodiversity, serving as nurseries 
 
 ## Models Implemented
 
-### Graph-Based Models (Spatial Context Considered)
+### Graph-Based Models 
 - **Graph Attention Network (GAT)**:
-  - `GAT_1ly`: A GAT model with one layer.
-  - `GAT_3ly`: A GAT model with three layers.
+  - `GAT_1ly`: A GAT model with one attention layer.
+  - `GAT_3ly`: A GAT model with three attention layers.
   
 - **Graph Convolutional Network (GCN)**:
-  - `GCN_1ly`: A GCN model with one layer.
-  - `GCN_3ly`: A GCN model with three layers.
+  - `GCN_1ly`: A GCN model with one convolutional layer.
+  - `GCN_3ly`: A GCN model with three convolutional layers.
 
-### Traditional Machine Learning Models (Non-Spatial Context)
+### Baseline Machine Learning Models
 - **Random Forest (RF)**: A traditional ensemble learning method that builds multiple decision trees.
 - **Support Vector Machine (SVM)**: A powerful classification algorithm.
 - **Multi-Layer Perceptron (MLP)**: A fully connected neural network that does not consider spatial dependencies.
