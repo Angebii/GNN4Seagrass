@@ -4,10 +4,10 @@ This repository provides the source code for the paper *"Leveraging Artificial I
 
 ## Overview
 
-Seagrass ecosystems are essential for marine biodiversity, serving as nurseries for various species and playing a crucial role in carbon sequestration. However, they are threatened by human activities and climate change. Accurate mapping of their distribution is essential for their conservation and management. This repository provides code and scripts to classify the distribution of seagrasses as either present (class 1) or absent (class 0) using spatial and non-spatial machine learning approaches.
+Seagrass ecosystems are essential for marine biodiversity, serving as nurseries for various species and playing a crucial role in carbon sequestration. However, they are threatened by human activities and climate change. Accurate mapping of their distribution is essential for their conservation and management. This repository provides code and scripts to classify the distribution of seagrasses using spatial and non-spatial machine learning approaches.
 
 ### Objectives
-- **Binary Classification Problem**: Predict whether seagrass is present (class 1) or absent (class 0) in specific regions of the Italian Seas.
+- **Binary Classification Problem**: Predict whether seagrass is present (class 1) or absent (class 0) in the Italian Seas.
 - **Comparative Study**: Evaluate the performance of GNN-based models against traditional models that do not account for spatial relationships between samples.
 
 ## Models Implemented
