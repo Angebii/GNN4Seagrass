@@ -43,7 +43,7 @@ You can install the dependencies using pip:
 
 ```bash
 pip install torch==1.11.0+cu113 torch-geometric==2.0.4 scikit-learn optuna pandas numpy
-
+```
 ## Dataset
 
 The dataset used in this project contains georeferenced seagrass distribution data, including features that represent environmental factors and human impacts. The dataset is formatted to be compatible with both traditional ML algorithms and GNN-based models, where graph structures are required for the latter.
@@ -58,12 +58,12 @@ If you want to adjust the number of neighbors for the graph construction (e.g., 
 
    ```python
    num_neighbours=4
-
+```
 to:
 
 ```python
 num_neighbours=8
-
+```
 Run the following scripts to recompute the dataset:
 
 - `graph.py`: Generates the graph structure for the dataset.
@@ -83,7 +83,7 @@ To run an experiment, follow these steps:
    # exp_model = 'GAT_1ly'
    # exp_model = 'GCN_1ly'
    # exp_model = 'GCN_3ly'
-
+```
 To run Random Forest (RF) or Support Vector Machine (SVM) models, execute the corresponding script:
 
 - For Random Forest, run `rf_train.py`.
@@ -97,31 +97,29 @@ To run a Multi-Layer Perceptron (MLP) model, open the terminal and execute:
 
 ```bash
 python train.py
-
+```
 If you wish to run a GNN-based model like GAT with three layers, uncomment the corresponding line in `train.py`:
 
 ```python
 # exp_model = 'GAT_3ly'
-
+```
 And run the script:
 
 ```bash
 python train.py
-
+```
 For Random Forest or SVM models, simply run the respective scripts:
 
 ```bash
 python rf_train.py  # for Random Forest
 python svm_train.py  # for SVM
-
+```
 ## Results
 
 The results of the experiments will be saved in the `results/` folder, containing:
 
 - Accuracy
 - Precision, Recall, F1 Score
-- Confusion Matrix
-- Model training and validation loss
 
 You can compare the performance of different models by reviewing these results, particularly how GNN-based models leverage spatial dependencies to outperform traditional methods.
 
@@ -136,7 +134,7 @@ If you use this code or dataset in your research, please cite the corresponding 
     journal={Journal Name},
     year={2024}
 }
-
+```
 
 
 
