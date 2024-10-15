@@ -64,10 +64,10 @@ If you want to adjust the number of neighbors for the graph construction (e.g., 
    ```python
    num_neighbours=8
    ```
-Run the following scripts to recompute the dataset:
+2. Run the following scripts to recompute the dataset:
 
-- `graph.py`: Generates the graph structure for the dataset.
-- `dataset.py`: Prepares the dataset, updating file names and configurations to ensure the experiments are comparable.
+  - `graph.py`: Generates the graph structure for the dataset.
+  - `dataset.py`: Prepares the dataset, updating file names and configurations to ensure the experiments are comparable.
 
 Make sure to update the corresponding dataset filenames and paths in the model training scripts after modifying the dataset.
 
@@ -83,11 +83,11 @@ To run an experiment, follow these steps:
    # exp_model = 'GAT_1ly'
    # exp_model = 'GCN_1ly'
    # exp_model = 'GCN_3ly'
-```
-To run Random Forest (RF) or Support Vector Machine (SVM) models, execute the corresponding script:
+   ```
+2. To run Random Forest (RF) or Support Vector Machine (SVM) models, execute the corresponding script:
 
-- For Random Forest, run `rf_train.py`.
-- For SVM, run `svm_train.py`.
+  - For Random Forest, run `rf_train.py`.
+  - For SVM, run `svm_train.py`.
 
 ## Running the Code
 
@@ -127,14 +127,7 @@ You can compare the performance of different models by reviewing these results, 
 
 If you use this code or dataset in your research, please cite the corresponding paper:
 
-```css
-@article{seagrassGNN,
-    title={Leveraging Artificial Intelligence Methods to Map Seagrass Ecosystems in Italian Seas: Tackling Human Impact and Climate Change},
-    author={Author Name},
-    journal={Journal Name},
-    year={2024}
-}
-```
+
 
 
 
