@@ -58,12 +58,12 @@ If you want to adjust the number of neighbors for the graph construction (e.g., 
 
    ```python
    num_neighbours=4
-```
+   ```
 to:
 
-```python
-num_neighbours=8
-```
+  ```python
+  num_neighbours=8
+  ```
 Run the following scripts to recompute the dataset:
 
 - `graph.py`: Generates the graph structure for the dataset.
