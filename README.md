@@ -66,8 +66,8 @@ If you want to adjust the number of neighbors for the graph construction (e.g., 
    ```
 2. Run the following scripts to recompute the dataset:
 
-  - `graph.py`: Generates the graph structure for the dataset.
-  - `dataset.py`: Prepares the dataset, updating file names and configurations to ensure the experiments are comparable.
+    - `graph.py`: Generates the graph structure for the dataset.
+    - `dataset.py`: Prepares the dataset, updating file names and configurations to ensure the experiments are comparable.
 
 Make sure to update the corresponding dataset filenames and paths in the model training scripts after modifying the dataset.
 
@@ -86,8 +86,8 @@ To run an experiment, follow these steps:
    ```
 2. To run Random Forest (RF) or Support Vector Machine (SVM) models, execute the corresponding script:
 
-  - For Random Forest, run `rf_train.py`.
-  - For SVM, run `svm_train.py`.
+    - For Random Forest, run `rf_train.py`.
+    - For SVM, run `svm_train.py`.
 
 ## Running the Code
 
