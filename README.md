@@ -38,7 +38,7 @@ sklearn
 optuna
 pandas
 numpy
-'''
+```
 You can install the dependencies using pip:
 
 ```bash
