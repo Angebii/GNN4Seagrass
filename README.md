@@ -126,6 +126,16 @@ You can compare the performance of different models by reviewing these results, 
 ## Citation
 
 If you use this code or dataset in your research, please cite the corresponding paper:
+```bash
+@article{bianconi2025leveraging,
+  title={Leveraging artificial intelligence methods to map seagrass ecosystems in Italian Seas: Tackling human impact and climate change},
+  author={Bianconi, Angelica and Vascon, Sebastiano and Furlan, Elisa and Critto, Andrea},
+  journal={Environmental Modelling \& Software},
+  pages={106678},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 
 
 
